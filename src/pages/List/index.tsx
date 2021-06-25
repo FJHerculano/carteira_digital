@@ -57,7 +57,7 @@ const List: React.FC<IRouteParams> = ({ match }) => {
         return movimentType === 'entry-balance' ?
         {
             title:'Entradas',
-            lineColor:'#F7931B',
+            lineColor:'#4E4',
             data: gains
         }
         :
@@ -117,7 +117,7 @@ const List: React.FC<IRouteParams> = ({ match }) => {
             const parseMonth = Number(month);
             setMonthSelected(parseMonth);
         }
-        catch(error){
+        catch{
             throw new Error('Invalid month value. Is accept 0 - 24.');
         }
     }
@@ -127,7 +127,7 @@ const List: React.FC<IRouteParams> = ({ match }) => {
             const parseYear = Number(year);
             setYearSelected(parseYear);
         }
-        catch(error){
+        catch{
             throw new Error('Invalid year value. Is accept integer numbers.');
         }
     }

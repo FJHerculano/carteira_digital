@@ -1,7 +1,7 @@
 export default [
   {"description":"Energia elétrica",      "amount":"150.55","type":"saída","frequency":"recorrente","date":"2015-01-09"},
   {"description":"Água",                  "amount":"75.55", "type":"saída","frequency":"recorrente","date":"2020-01-15"},
-  {"description": "Telefone",             "amount":"99.99", "type":"saída","frequency":"recorrente","date":"2021-01-23"},
+  {"description": "Telefone",             "amount":"99.99", "type":"saída","frequency":"recorrente","date":"2022-01-23"},
   {"description":"Plano de Saúde",        "amount":"300.00","type":"saída","frequency":"recorrente","date":"2021-01-23"},
   {"description":"Compras do mês",        "amount":"625.78","type":"saída","frequency":"recorrente","date":"2021-01-23"},
   {"description":"Lanche",                "amount":"45.70", "type":"saída","frequency":"eventual",  "date":"2021-01-23"},
@@ -47,5 +47,6 @@ export default [
   {"description":"Plano de Saúde",        "amount":"300.00","type":"saída","frequency":"recorrente","date":"2021-07-23"},
   {"description":"Compras do mês",        "amount":"700.00","type":"saída","frequency":"recorrente","date":"2021-07-25"},
   {"description":"Cafeteira",             "amount":"250.00","type":"saída","frequency":"eventual",  "date":"2021-07-26"},
-  {"description":"Pizza",                 "amount":"60.00", "type":"saída","frequency":"eventual",  "date":"2021-07-19"}
+  {"description":"Pizza",                 "amount":"60.00", "type":"saída","frequency":"eventual",  "date":"2021-07-19"},
+
 ]
